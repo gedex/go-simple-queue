@@ -1,7 +1,7 @@
 go-simple-queue
 ========================
 
-> Implementing simple queue, in Go, for creating background jobs.
+> Simulating simple queue, written in Go, for pushing and fetching jobs.
 
 Consider a use case where you need to send email after a user is suscessfully
 registered. Sending email takes time and it will block request handler to finish
