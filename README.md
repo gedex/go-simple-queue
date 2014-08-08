@@ -35,3 +35,7 @@ Once you built and ran the program, it will publish jobs periodically. There are
 4 `SendEmail` workers and 3 `GenerateThumbnail` workers fetching jobs from
 queue. Worker will take [0,3) seconds to finish its job. The result may `SUCCESS`
 or `FAIL`.
+
+## License
+
+MIT License - see [LICENSE](./LICENSE) file.
